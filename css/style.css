@@ -1,4 +1,8 @@
-
+.All{
+    max-width: 1920px;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
 .Violet-top-rectangle{
     width: 100%;
     height: 3px;
@@ -60,7 +64,6 @@
 .textHeaderP{
     font-size: 24px;
     font-family: 'Philosopher', sans-serif;
-    
     margin-bottom: 50px;
     color: grey;
 
@@ -72,8 +75,6 @@
     padding: 10px 25px;
     border-radius: 30px;
     border: none;
-
-
     background-image: -moz-linear-gradient( 90deg, rgb(0,173,255) 0%, rgb(0,216,255) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(0,173,255) 0%, rgb(0,216,255) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(0,173,255) 0%, rgb(0,216,255) 100%);
@@ -97,68 +98,40 @@
         margin-bottom: 15px;
     }
 }
-
-
 .section2_allContent{
-    /* padding: 60px; */
-    /* max-width: 100%; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 15px;
-    
-
 }
 @media screen and (max-width: 980px){
-
     .section2_allContent{
-        
         display: flex;
         flex-direction: column;
-        margin: o auto;
-        
-      
+        margin: o auto;  
     } 
-    
     .section2_allContent__img{
         margin: 0 auto;
         align-content: center;
         margin-bottom: 50px;
-        
-   
-
     }
     .section2_allContent__list{
         margin: o auto;
         align-content: center;
         margin-left: 50px;
         margin-bottom: 15px;
-
-        
-
     }
     .section2_items{
         margin-bottom: 15px;
     }
-
-
-
 }
-
-
-
-
-
 @media screen and (max-width: 620px){
     .section2_allContent__img{
         padding: 0px;
         margin-bottom: 30px;
-    
     }
-
 }
-
 .section2_allContent__list{
     display: flex;
     flex-direction: row;
